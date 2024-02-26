@@ -1,11 +1,11 @@
 package Day02;
 
 public class Day02 {
-
+	
 	int day;
 	String topic;
 	String points;
-
+	
 	public static void main(String[] args) {
 		Day02 obj = new Day02();
 		obj.day = 1;
@@ -33,7 +33,7 @@ public class Day02 {
 		Day02 obj4 = new Day02();
 
 		obj4.day = 1;
-		obj4.topic = "4, Updating Data in  Classes ";
+		obj4.topic = "4, Updating Data in 	 Classes ";
 		obj4.points = "When assigning a new value to an existing variable it overwrites the old value.\nThat's why we use a new reference of the class.";
 		System.out.println("\n");
 		System.out.println(" Day -> "+obj4.day +", \n Topic -> " + obj4.topic +", \n Points -> "+ obj4.points  );
