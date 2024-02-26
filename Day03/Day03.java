@@ -1,23 +1,25 @@
 package Day03;
 
 public class Day03 {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-//	byte a = 20;
-//	short c =(short) a;
-//	int b = (int) c;
-//	long e = (long) b;
-//	//implicitly type casting waiting
-//	
-		float a = 20;
-		byte d;
-		int b = (int) a;
-		d = (byte) b;
-		
-		float x = 32.0f;
-		long xx = (long) x;
-		System.out.println(xx);
-		System.out.println(d);
+        // Explicit casting from byte to short to int to long
+        byte a = 20;
+        short c = (short) a;
+        int b = (int) c;
+        long e = (long) b;
 
-	}
+        // Implicit casting from float to int to byte
+        float f = 20.0f;
+        int g = (int) f;
+        byte d = (byte) g;
+
+        // Explicit casting from float to long
+        float x = 32.0f;
+        long xx = (long) x;
+
+        System.out.println(e); // Print the long value
+        System.out.println(d); // Print the byte value
+        System.out.println(xx); // Print the long value
+    }
 }
