@@ -7,7 +7,7 @@ public class Practice03 {
 		// character take single value 
 		char a = '2';
 		System.out.println(a);
-
+		
 	}
 
 }

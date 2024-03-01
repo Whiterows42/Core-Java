@@ -1,7 +1,7 @@
 package Day03;
 
 public class Practice {
-	byte a;
+	int a;
 	short b;
 	int e;
 	long d;
